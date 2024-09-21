@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت موزیک</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="music-item" onclick="playMusic('music1')">
+            <img src="cover1.jpg" alt="Cover 1">
+            <h3>اسم خواننده 1</h3>
+            <p>اسم آهنگ 1</p>
+            <button>پخش</button>
+            <button>دانلود</button>
+        </div>
+
+        <div class="music-item" onclick="playMusic('music2')">
+            <img src="cover2.jpg" alt="Cover 2">
+            <h3>اسم خواننده 2</h3>
+            <p>اسم آهنگ 2</p>
+            <button>پخش</button>
+            <button>دانلود</button>
+        </div>
+
+        <div class="music-item" onclick="playMusic('music3')">
+            <img src="cover3.jpg" alt="Cover 3">
+            <h3>اسم خواننده 3</h3>
+            <p>اسم آهنگ 3</p>
+            <button>پخش</button>
+            <button>دانلود</button>
+        </div>
+
+        <div id="player" class="player">
+            <img id="current-cover" src="" alt="">
+            <h3 id="current-artist"></h3>
+            <p id="current-title"></p>
+            <audio id="audio" controls>
+                <source id="audio-source" src="" type="audio/mpeg">
+                مرورگر شما از این فرمت پشتیبانی نمی‌کند.
+            </audio>
+            <div class="time-info">
+                <span id="current-time">00:00</span> / <span id="duration">00:00</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
