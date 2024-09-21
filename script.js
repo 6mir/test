@@ -1,30 +1,21 @@
 const musicData = {
     music1: {
-   music1: {
        src: 'path/to/music1.mp3', // مسیر صحیح را وارد کنید
        cover: 'cover1.jpg',
        artist: 'اسم خواننده 1',
-       title: 'اسم آهنگ 1'
-   },
-   
+       title: 'اسم آهنگ 1',
     },
     music2: {
-   music1: {
        src: 'path/to/music2.mp3', // مسیر صحیح را وارد کنید
        cover: 'cover2.jpg',
        artist: 'اسم خواننده 1',
        title: 'اسم آهنگ 1'
-   },
-   
     },
     music3: {
-   music1: {
        src: 'path/to/music3.mp3', // مسیر صحیح را وارد کنید
        cover: 'cove3.jpg',
        artist: 'اسم خواننده 1',
        title: 'اسم آهنگ 1'
-   },
-   
     }
 };
 
